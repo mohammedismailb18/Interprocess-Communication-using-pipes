@@ -35,10 +35,12 @@ question 1 has two programs p1p2.c and p3.c
 
 -> open two terminals from the directory containing these two programs.
 
--> In first terminal enter the command for compiling p1p2.c and create an executable file named 'first' : gcc p1p2.c -o first -lm
+-> In first terminal enter the command for compiling p1p2.c and create an executable file named 'first' : 
+		gcc p1p2.c -o first -lm
 
--> In second terminal enter the command for compiling p3.c and create and executable file name 'second' : gcc p3.c -o second
-
+-> In second terminal enter the command for compiling p3.c and create and executable file name 'second' :
+		gcc p3.c -o second
+		
 -> To run the executable file run the commands in the appropriate terminals:
 	./first
 	./second
